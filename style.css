@@ -25,7 +25,8 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       rgba(0, 153, 219, 0.9) 0%,
       rgba(0, 104, 181, 0.9) 50%,
@@ -150,6 +151,19 @@ button:hover {
 #checkInBtn {
   flex-shrink: 0;
   white-space: nowrap;
+}
+
+/* Reset button */
+.reset-btn {
+  margin: 10px auto 18px;
+  height: 44px;
+  min-width: 140px;
+  background-color: #dc2626;
+  box-shadow: 0 4px 12px rgba(71, 85, 105, 0.2);
+}
+
+.reset-btn:hover {
+  background-color: #b91c1c;
 }
 
 /* Icon spacing */
